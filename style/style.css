@@ -34,10 +34,12 @@ body{
     letter-spacing: 0.1em;
     color: #000000;
     margin-left: 42px;
+    cursor: pointer;
 }
 .nav_first{
     font-family: "Roboto-Medium";
     font-weight: 500;
+    color: #500E0A;
     margin-left: 0;
 }
 .header_title{
@@ -65,6 +67,7 @@ body{
     margin: 0 1293px 0 399px;
     background: #500E0A;
     border-radius: 7px;
+    cursor: pointer;
 }
 .text_btn{
     font-family: "Roboto";
@@ -104,6 +107,10 @@ body{
     padding: 100px 0 103px 0;
 }
 .statistic_card{
+    display: inline-block;
+    margin-left: 45px;
+}
+.first_card{
     margin-left: 409px;
 }
 .statistic_img{
@@ -113,18 +120,48 @@ body{
 }
 .statistic_info{
     display: inline-block;
+    margin-left: 20px;
 }
 .info_number{
+    margin-bottom: 10px;
     font-family: "Roboto-Medium";
     font-weight: 500;
     font-size: 21px;
-    line-height: 25px;  
+    line-height: 21px;  
     color: #FFFFFF;
 }
 .info_text{
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.about_work{
+    background: #EBEBEB;
+}
+.video{
+    margin: 57px 405px 0;
+}
+.footer{
+    background: #500E0A;
+    padding: 50px 0;
+}
+.footer_item{
+    margin-left: 406px;
+}
+.footer_title{
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer_text{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
     color: #FFFFFF;
 }
