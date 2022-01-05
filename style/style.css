@@ -1,166 +1,174 @@
-@font-face{
+@font-face {
     font-family: "Roboto";
     src: url(../fonts/Roboto-Regular.ttf);
     font-weight: 400;
 }
+
 @font-face {
     font-family: "Roboto-Medium";
     src: url(../fonts/Roboto-Medium.ttf);
     font-weight: 500;
 }
-body{
+
+body {
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
 }
-.container{    
-    width: 1920px;
+
+.fix_size {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.container {    
     background: #EBEBEB;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #000000;
 }
-.header{
+
+.font_title {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    color: #000000;
+}
+
+.header {
     padding: 79px 0 144px 0;
 }
-.nav{
+
+.nav {
     display: block;
-    margin: 0 910px 162px 399px;
+    margin-bottom: 162px;
 }
-.nav_item{
+
+.nav_item {
     display: inline-block;
-    font-family: "Roboto";
+    margin-left: 42px;
     text-decoration: none;
-    font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.1em;
-    color: #000000;
-    margin-left: 42px;
-    cursor: pointer;
+    cursor: pointer;   
 }
-.nav_first{
-    font-family: "Roboto-Medium";
-    font-weight: 500;
+
+.nav_first {
     color: #500E0A;
     margin-left: 0;
 }
-.header_title{
+
+.section_text {
     display: block;
-    margin: 0 980px 60px 399px;
-    font-family: "Roboto-Medium";
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 48px;
-    color: #000000;
-}
-.header_text{
-    display: block;
-    margin: 0 980px 65px 400px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    width: 540px;
     font-size: 16px;
     line-height: 26px;
-    color: #727272;
 }
-.header_btn{
+
+.header_title {
+    display: block;
+    margin-bottom: 60px;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.header_text {
+    margin-bottom: 65px; 
+}
+
+.header_btn {
     width: 228px;
     height: 62px;
-    margin: 0 1293px 0 399px;
     background: #500E0A;
     border-radius: 7px;
     cursor: pointer;
 }
-.text_btn{
-    font-family: "Roboto";
-    font-weight: 400;
+
+.text_btn {
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
 }
-.about{
+
+.about_background {
     background: #E5E5E5;
+}
+
+.about {
     padding: 112px 0 100px 0;
 }
-.about_title{
+
+.about_title {
     display: block;
-    margin: 0 759px 50px 758px;
-    font-family: "Roboto-Medium";
-    font-weight: 500;
+    margin-bottom: 50px;
     font-size: 32px;
     line-height: 32px;
     text-align: center;
-    color: #000000;
 }
-.about_text{
-    display: block;
-    margin: 0 690px;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
+
+.about_text {
+    margin: 0 auto;
+    text-align: center;  
 }
-.statistic{
+
+.statistic_background {
     background: #500E0A;
+}
+
+.statistic {
     padding: 100px 0 103px 0;
 }
-.statistic_card{
+
+.statistic_card {
     display: inline-block;
     margin-left: 45px;
 }
-.first_card{
-    margin-left: 409px;
+
+.first_card {
+    margin-left: 0;
 }
-.statistic_img{
+
+.statistic_img {
     display: inline-block;
     width: 50px;
     height: 50px;
 }
-.statistic_info{
+
+.statistic_info {
     display: inline-block;
     margin-left: 20px;
 }
-.info_number{
+
+.info_number {
     margin-bottom: 10px;
-    font-family: "Roboto-Medium";
-    font-weight: 500;
     font-size: 21px;
     line-height: 21px;  
     color: #FFFFFF;
 }
-.info_text{
-    font-family: "Roboto";
-    font-weight: 400;
+
+.info_text {
     font-size: 16px;
     line-height: 16px;
     color: #FFFFFF;
 }
-.about_work{
-    background: #EBEBEB;
+
+.video {
+    margin-top: 57px;
 }
-.video{
-    margin: 57px 405px 0;
-}
-.footer{
+
+.footer {
     background: #500E0A;
     padding: 50px 0;
 }
-.footer_item{
-    margin-left: 406px;
-}
-.footer_title{
-    font-family: "Roboto-Medium";
-    font-weight: 500;
+
+.footer_title {
     font-size: 21px;
     line-height: 21px;
     color: #FFFFFF;
 }
-.footer_text{
+
+.footer_text {
     margin-top: 20px;
-    font-family: Roboto;
-    font-weight: 400;
     font-size: 13px;
     line-height: 13px;
     color: #FFFFFF;
