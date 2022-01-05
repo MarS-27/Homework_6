@@ -48,7 +48,8 @@ body {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.1em;
-    cursor: pointer;   
+    cursor: pointer;
+    color: #000000;   
 }
 
 .nav_first {
